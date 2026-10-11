@@ -1,6 +1,6 @@
 # Student Grade Management System
 
-A desktop application built with C# and WPF on .NET 7 for managing student records and grades. Students and their grades are stored in a `Dictionary<string, int>`, and the app gives you an on-screen interface plus keyboard shortcuts for every main action.
+Student Grading System
 
 ## Features
 
