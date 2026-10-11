@@ -53,6 +53,7 @@ namespace StudentGradeManagementSystem.Services
             }
         }
 
+        // Student records
         public StudentRecord FindStudent(string name)
         {
             string studentName = NormalizeName(name);
@@ -68,6 +69,8 @@ namespace StudentGradeManagementSystem.Services
             throw new StudentNotFoundException(studentName);
         }
 
+
+        // Student list
         public List<StudentRecord> GetAllStudents()
         {
             return _students
